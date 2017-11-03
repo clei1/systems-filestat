@@ -15,7 +15,7 @@ void convert_size(long size){
 void convert_permissions(mode_t perm){
   int grp = perm / 8;
   int usr = grp / 8;
-  printf("%d %d %d", usr % 8, grp % 8, perm % 8);
+  printf("%d %d %d\n", usr % 8, grp % 8, perm % 8);
   
 }
 
